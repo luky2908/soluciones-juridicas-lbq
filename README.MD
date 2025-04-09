@@ -7,7 +7,7 @@ Soluciones Jurídicas LBQ es una página web desarrollada como ejemplo de trabaj
 🔴 Backend: En desarrollo (no implementado en esta versión)
 
 🛠️ Tecnologías utilizadas
-HTML5 + CSS3
+HTML + CSS
 
 Diseño responsivo
 
