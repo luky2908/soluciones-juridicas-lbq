@@ -1,6 +1,31 @@
-Soluciones Jurídicas es un proyecto académico en su primera fase de desarrollo web. Su objetivo es crear un sitio fácil de usar donde las personas puedan encontrar asesoría legal y acceder a información jurídica importante.
+Soluciones Jurídicas LBQ
 
-Por ahora, la página tiene un diseño simple y organizado, con secciones como "Inicio", "Sobre Nosotros" y "Contacto". También cuenta con una navegación clara para que los usuarios puedan moverse con facilidad.
+Soluciones Jurídicas LBQ es una página web desarrollada como ejemplo de trabajo académico y de portafolio profesional. Su propósito es simular una plataforma que ofrece servicios jurídicos, integrando diseño visual moderno, organización de contenidos legales, y un enfoque en la usabilidad y accesibilidad para el usuario final.
 
-Más adelante, planeamos agregar nuevas funciones, como consultas legales en línea y una base de datos con recursos y leyes útiles.
+🌐 Estado del Proyecto
+🔵 Frontend: 100% completado
+🔴 Backend: En desarrollo (no implementado en esta versión)
+
+🛠️ Tecnologías utilizadas
+HTML5 + CSS3
+
+Diseño responsivo
+
+Git y GitHub para control de versiones
+
+Principios de diseño accesible y profesional
+
+📌 Próximas implementaciones (Backend)
+Este proyecto está preparado para integrar funcionalidades backend en el futuro, tales como:
+
+Procesamiento de formularios de contacto vía servidor
+
+Administración dinámica del blog (crear, editar, eliminar entradas)
+
+Nota importante
+🧪 Este proyecto es un ejemplo académico y no representa una firma o servicio jurídico real.
+Su uso está orientado al aprendizaje, desarrollo web y presentación de habilidades en diseño de interfaces.
+
+🤝 Contribuciones
+Las sugerencias y mejoras son bienvenidas. Puedes abrir issues o pull requests en el repositorio.
 
