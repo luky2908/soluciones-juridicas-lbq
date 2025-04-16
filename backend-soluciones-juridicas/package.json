@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "backend-soluciones-juridicas/\r │\r ├── app.js                  # Archivo principal del servidor Express\r ├── .env                   # Variables de entorno (puerto, URI de MongoDB, etc.)\r ├── .gitignore             # Archivos o carpetas ignoradas por Git\r │\r ├── models/                # Modelos de datos con Mongoose\r │   ├── Usuario.js         # Modelo del usuario\r │   └── Contacto.js        # Modelo del formulario de contacto\r │\r ├── routes/                # Rutas del backend\r │   └── contactoRoutes.js  # Rutas para el formulario de contacto\r │\r ├── controllers/           # Lógica del controlador\r │   └── contactoController.js\r │\r └── frontend/              # Carpeta con archivos estáticos del frontend (HTML, CSS, JS)",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  }
+}

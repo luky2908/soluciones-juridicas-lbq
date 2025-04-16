@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asesoría legal confiable y profesional en derecho penal.">
+  <title>Bienvenida - Soluciones Jurídicas LBQ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logopa.png" />
+  <style>
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/logopa.png" alt="Logo" class="logo">
+        <span>Soluciones Jurídicas LBQ</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="bienvenida.html">Bienvenida</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 id="nombreUsuario">¡Bienvenido!</h1>
+      <p>Gracias por confiar en nuestros servicios legales.</p>
+    </div>
+  </header>
+
+  <!-- Mensaje del usuario -->
+  <section class="container my-5">
+    <h2 class="fw-bold">Tu mensaje:</h2>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text" id="mensajeUsuario">No se ha registrado ningún mensaje.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2025 Soluciones Jurídicas LBQ. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Mostrar nombre y mensaje desde sessionStorage
+    const nombre = sessionStorage.getItem('nombre');
+    const mensaje = sessionStorage.getItem('mensaje');
+
+    if (nombre) {
+      document.getElementById('nombreUsuario').textContent = `¡Bienvenido, ${nombre}!`;
+    }
+
+    if (mensaje) {
+      document.getElementById('mensajeUsuario').textContent = mensaje;
+    }
+
+    function cerrarSesion() {
+      sessionStorage.clear();
+      window.location.href = 'login.html';
+    }
+  </script>
+</body>
+
+</html>
